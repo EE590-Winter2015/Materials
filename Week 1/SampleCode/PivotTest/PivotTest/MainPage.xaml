@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="PivotTest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PivotTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Pivot Title="Hello EE 590!">
+            <PivotItem Header="First page">
+                <Grid>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="This is first page content" VerticalAlignment="Top" FontSize="20"/>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="Second page">
+                <Grid>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="This is second page content" VerticalAlignment="Top" FontSize="20"/>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="Third page">
+                <Grid>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="This is third page content" VerticalAlignment="Top" FontSize="20"/>
+                </Grid>
+            </PivotItem>
+        </Pivot>
+
+    </Grid>
+</Page>
