@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="Delegates.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Delegates"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="processButton" Content="process()" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" FontFamily="Global User Interface" Click="processButton_Click"/>
+        <TextBlock x:Name="textOutput0" HorizontalAlignment="Left" Margin="203,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Height="32" Width="187" Text="Output 0"/>
+        <Button x:Name="switchButton" Content="switch output" HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top" FontFamily="Global User Interface" Click="switchButton_Click"/>
+        <TextBlock x:Name="textOutput1" HorizontalAlignment="Left" Margin="203,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Height="32" Width="187" Text="Output 1"/>
+
+    </Grid>
+</Page>

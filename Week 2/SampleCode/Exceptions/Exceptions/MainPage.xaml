@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="Exceptions.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Exceptions"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="parseButton" Content="parse integer" HorizontalAlignment="Left" Margin="219,16,0,0" VerticalAlignment="Top" Click="parseButton_Click"/>
+        <TextBlock x:Name="textOutput" HorizontalAlignment="Left" Margin="219,106,0,0" TextWrapping="Wrap" Text="Output: 0" VerticalAlignment="Top" FontSize="24" Height="32" Width="171"/>
+        <TextBox x:Name="textInput" HorizontalAlignment="Left" Margin="10,25,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
