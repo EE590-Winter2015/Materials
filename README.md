@@ -6,3 +6,4 @@ Lecture Videos
 --------------
 
 * Week 1 ([Youtube link](https://www.youtube.com/watch?v=CrG8-2V69qQ))
+* Week 2 ([Part 1 Youtube link](https://www.youtube.com/watch?v=1-7Muf1jYYk), [Part 2 Youtub link](https://www.youtube.com/watch?v=iOl5T_cr5_8))
