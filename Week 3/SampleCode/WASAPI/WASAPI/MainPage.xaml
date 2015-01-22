@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="WASAPI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WASAPI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="startStopButton" Content="Start" HorizontalAlignment="Left" Margin="265,556,0,0" VerticalAlignment="Top" Click="startStopButton_Click"/>
+        <TextBlock x:Name="textOutput" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Sound Stopped" VerticalAlignment="Top" FontSize="24" Height="192" Width="364" FontFamily="Global User Interface"/>
+
+    </Grid>
+</Page>
