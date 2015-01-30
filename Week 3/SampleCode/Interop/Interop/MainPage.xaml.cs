@@ -27,7 +27,7 @@ namespace Interop
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            SignalGenerator sig = new SignalGenerator();
+            var sig = new SignalGenerator();
             float[] data = sig.makeSinWave(1000, 440, 0.0f);
             data[0] += 1.0f;
         }

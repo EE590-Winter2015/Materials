@@ -8,6 +8,12 @@ using namespace Platform;
 
 SignalGenerator::SignalGenerator()
 {
+	float z = 10.0f;
+	auto myLambda = [this](float x) {
+		return z*x + 1.0f;
+	};
+
+	float returnValue = myLambda(2.0f);
 }
 
 
