@@ -21,7 +21,6 @@ namespace LineGraph
     {
         private VisualizationTools.LineGraph graph;
         private SoundIO sio;
-        private AudioTool at;
         private bool shouldPlot = false;
 
         public MainPage()
@@ -33,7 +32,6 @@ namespace LineGraph
             LineGraph_XAML.Source = graph;
 
             sio = new SoundIO();
-            at = new AudioTool(sio.getInputNumChannels(), sio.getInputSampleRate());
             sio.audioInEvent += sio_audioInEvent;
             sio.start();
         }
