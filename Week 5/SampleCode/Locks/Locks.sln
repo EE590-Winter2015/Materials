@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locks", "Locks\Locks.csproj", "{27227867-5762-4B0A-8CCC-BA5D3D976CDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocksFixed", "LocksFixed\LocksFixed.csproj", "{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Debug|ARM.ActiveCfg = Debug|ARM
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Debug|ARM.Build.0 = Debug|ARM
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Debug|ARM.Deploy.0 = Debug|ARM
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Debug|x86.ActiveCfg = Debug|x86
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Debug|x86.Build.0 = Debug|x86
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Debug|x86.Deploy.0 = Debug|x86
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Release|ARM.ActiveCfg = Release|ARM
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Release|ARM.Build.0 = Release|ARM
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Release|ARM.Deploy.0 = Release|ARM
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Release|x86.ActiveCfg = Release|x86
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Release|x86.Build.0 = Release|x86
+		{27227867-5762-4B0A-8CCC-BA5D3D976CDE}.Release|x86.Deploy.0 = Release|x86
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Debug|ARM.ActiveCfg = Debug|ARM
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Debug|ARM.Build.0 = Debug|ARM
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Debug|ARM.Deploy.0 = Debug|ARM
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Debug|x86.ActiveCfg = Debug|x86
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Debug|x86.Build.0 = Debug|x86
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Debug|x86.Deploy.0 = Debug|x86
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Release|ARM.ActiveCfg = Release|ARM
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Release|ARM.Build.0 = Release|ARM
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Release|ARM.Deploy.0 = Release|ARM
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Release|x86.ActiveCfg = Release|x86
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Release|x86.Build.0 = Release|x86
+		{8A967126-BAAB-46BE-BAFE-E97BEC7D3441}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

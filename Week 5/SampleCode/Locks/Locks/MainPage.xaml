@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="Locks.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Locks"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:Name="avgOut" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Average: " VerticalAlignment="Top" Width="240" Height="39" FontSize="24"/>
+        <Button x:Name="randomizeButton" Content="Randomize!" HorizontalAlignment="Left" Margin="255,1,0,0" VerticalAlignment="Top" Click="randomizeButton_Click"/>
+    </Grid>
+</Page>
