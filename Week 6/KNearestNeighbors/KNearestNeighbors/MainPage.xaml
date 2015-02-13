@@ -1,0 +1,45 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="KNearestNeighbors.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="EE PMP 590 - WEEK 7" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <DrawingSurface x:Name="rCanvas" HorizontalAlignment="Left" Height="180" VerticalAlignment="Top" Width="480" Loaded="rCanvas_Loaded" Margin="-12,0,0,0"/>
+            <DrawingSurface x:Name="bCanvas" HorizontalAlignment="Left" Height="180" VerticalAlignment="Top" Width="480" Loaded="gCanvas_Loaded" Margin="-12,0,0,0"/>
+            <DrawingSurface x:Name="gCanvas" HorizontalAlignment="Left" Height="180" VerticalAlignment="Top" Width="480" Loaded="bCanvas_Loaded" Margin="-12,0"/>
+            <Button x:Name="plotTypeButton" Content="Acceleration" HorizontalAlignment="Left" Margin="0,185,0,0" VerticalAlignment="Top" Click="plotTypeButton_Click"/>
+            <Button x:Name="recNegButton" Content="Record Negative Example" HorizontalAlignment="Left" Margin="0,623,0,0" VerticalAlignment="Top" Click="recNegButton_Click"/>
+            <Button x:Name="recPosButton" Content="Record Positive Example" HorizontalAlignment="Left" Margin="0,551,0,0" VerticalAlignment="Top" Width="314" Click="recPosButton_Click"/>
+            <Button x:Name="classifyButton" Content="Classify!" HorizontalAlignment="Left" Margin="319,551,0,0" VerticalAlignment="Top" IsEnabled="False" Click="classifyButton_Click"/>
+            <Button x:Name="clearButton" Content="Clear" HorizontalAlignment="Left" Margin="319,623,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.2,-0.194" Click="clearButton_Click"/>
+            <DrawingSurface x:Name="posCanvas" HorizontalAlignment="Left" Height="148" VerticalAlignment="Top" Width="480" Loaded="posCanvas_Loaded" Margin="-12,253,-12,0"/>
+            <DrawingSurface x:Name="negCanvas" HorizontalAlignment="Left" Height="148" VerticalAlignment="Top" Width="480" Loaded="negCanvas_Loaded" Margin="-12,410,-12,0"/>
+            <TextBlock x:Name="textOut" HorizontalAlignment="Left" Margin="232,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="63" Width="214"/>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
