@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>5fd0e509-b6ae-4f29-bd2a-4d2cc10f3aa0</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="libFLAC++">
+      <UniqueIdentifier>{da8120b2-8906-4dfb-96dd-fa84dde148f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libFLAC">
+      <UniqueIdentifier>{ee7f0c70-6375-42bc-ab3a-dd20df6273db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libflac_wrapper.cpp" />
+    <ClCompile Include="bitmath.c">
+      <Filter>libFLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="bitreader.c">
+      <Filter>libFLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="bitwriter.c">
+      <Filter>libFLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu.c">
+      <Filter>libFLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="crc.c">
+      <Filter>libFLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="fixed.c">
+      <Filter>libFLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="float.c">
+      <Filter>libFLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="format.c">
+      <Filter>libFLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="lpc.c">
+      <Filter>libFLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.c">
+      <Filter>libFLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.c">
+      <Filter>libFLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata_iterators.c">
+      <Filter>libFLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata_object.c">
+      <Filter>libFLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_decoder.c">
+      <Filter>libFLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_encoder.c">
+      <Filter>libFLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_encoder_framing.c">
+      <Filter>libFLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="window.c">
+      <Filter>libFLAC</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_decoder_cpp.cpp">
+      <Filter>libFLAC++</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_encoder_cpp.cpp">
+      <Filter>libFLAC++</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata.cpp">
+      <Filter>libFLAC++</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libflac_wrapper.h" />
+  </ItemGroup>
+</Project>
