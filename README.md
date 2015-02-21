@@ -11,3 +11,4 @@ Lecture Videos
 * Week 4 ([Part 1 Youtube link](https://www.youtube.com/watch?v=mX40aOzvXTE), [Part 2 Youtube link](https://www.youtube.com/watch?v=7MCGXgHLK_I))
 * Week 5 ([Part 1 Youtube link](https://www.youtube.com/watch?v=qG2nhebCP8w), [Part 2 Youtube link](https://www.youtube.com/watch?v=BoO58voE2YQ))
 * Week 6 ([Youtube link](https://www.youtube.com/watch?v=xLhZ9-SOrlo))
+* Week 7 ([Part 1 Youtube link](https://www.youtube.com/watch?v=8FmCdDcoSvc), [Part 2 Youtube link](https://www.youtube.com/watch?v=w_G0qfpjP8I))
