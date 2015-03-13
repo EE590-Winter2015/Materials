@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>85A4B419-20EB-4F13-89BD-89397D414E08</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AccelerometerTest_iOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>48F244E474EA91E01F024C8F06B9BF7AED91A7E8</key>
+		<string>github.com:EE590-Winter2015/Materials.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Week 10/SampleCode/AccelerometerTest_iOS/AccelerometerTest_iOS.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>48F244E474EA91E01F024C8F06B9BF7AED91A7E8</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:EE590-Winter2015/Materials.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>48F244E474EA91E01F024C8F06B9BF7AED91A7E8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>48F244E474EA91E01F024C8F06B9BF7AED91A7E8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Materials</string>
+		</dict>
+	</array>
+</dict>
+</plist>
