@@ -36,7 +36,7 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <phone:LongListSelector x:Name="list" HorizontalAlignment="Center" Height="524" VerticalAlignment="Top" Width="456" ItemTemplate="{StaticResource DataTemplate1}"/>
+            <phone:LongListSelector x:Name="list" HorizontalAlignment="Center" Height="524" VerticalAlignment="Top" Width="456" ItemTemplate="{StaticResource DataTemplate1}" d:DataContext="{d:DesignData /SampleData/SampleDataSource/SampleDataSource.xaml}"/>
             <Button Content="Add New" HorizontalAlignment="Left" Margin="310,535,0,0" VerticalAlignment="Top" Click="Button_Click"/>
 
         </Grid>

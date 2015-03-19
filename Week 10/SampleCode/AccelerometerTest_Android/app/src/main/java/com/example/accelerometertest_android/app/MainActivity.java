@@ -37,6 +37,7 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
 
         // Get the button object from the layout, and set it's onclick behavior
         Button button1 = (Button)findViewById(R.id.button);
+
         button1.setOnClickListener(new OnClickListener(){
             public void onClick(View v) {
                 TextView tb = (TextView)findViewById(R.id.outputText);

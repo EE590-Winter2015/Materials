@@ -29,7 +29,9 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <TextBlock Text="{Binding Name}" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <Button x:Name="change" Content="Graduate" HorizontalAlignment="Left" Margin="311,394,0,0" Grid.Row="1" VerticalAlignment="Top" Click="change_Click"/>
         </Grid>
+        
 
     </Grid>
 

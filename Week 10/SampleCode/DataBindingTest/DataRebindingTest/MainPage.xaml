@@ -30,7 +30,7 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="{Binding Name}" VerticalAlignment="Top"/>
-            <Button Content="Button" HorizontalAlignment="Left" Margin="316,324,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+            <Button Content="Graduate" HorizontalAlignment="Left" Margin="316,324,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
         </Grid>
     </Grid>
 

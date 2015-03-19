@@ -49,7 +49,7 @@ namespace DataRebindingTest
                 set
                 {
                     _address = value;
-                    NotifyChanged("Address");
+                   NotifyChanged("Address");
                 }
             }
         }
@@ -70,7 +70,7 @@ namespace DataRebindingTest
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             // Now we rebind
-            tb.Name = "blah2!";
+            tb.Name = "Shwetak Patel";
         }
     }
 }
